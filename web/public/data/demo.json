@@ -1,0 +1,2830 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "generated_at": "2026-10-22T12:00:00+00:00",
+  "last_success": "2026-10-22T12:00:00+00:00",
+  "coverage": "complete",
+  "config_hash": "demo-v1",
+  "vacancies": [
+    {
+      "id": "demo-1",
+      "url": "https://hh.ru/vacancy/demo-1",
+      "title": "MLOps Engineer",
+      "employer_id": "fiction-0",
+      "employer": "Синтетика Лаб • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-21T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 260000.0,
+        "upper": 360000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 1,
+      "score": 100,
+      "reasons": [
+        "core_title",
+        "operational_ml",
+        "technology:KServe",
+        "technology:MLflow",
+        "technology:model serving"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "Terraform",
+          "category": "infrastructure",
+          "matched": "Terraform",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "ClearML, Terraform"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "ClearML",
+          "category": "lifecycle",
+          "matched": "ClearML",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "ClearML, Terraform"
+        },
+        {
+          "name": "KServe",
+          "category": "inference",
+          "matched": "KServe",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "model serving",
+          "category": "inference",
+          "matched": "model serving",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        }
+      ],
+      "sections": {
+        "title": "MLOps Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация MLflow и KServe: model serving в Kubernetes",
+        "requirements": "Требования\nLinux, Kubernetes, Python, MLflow",
+        "preferred": "Будет плюсом\nClearML, Terraform"
+      },
+      "summary": {
+        "ru": "Область работы: ClearML, KServe, MLflow, model serving. Обязательные навыки: Kubernetes, Linux, MLflow, Python. Будет плюсом: ClearML, Terraform. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: ClearML, KServe, MLflow, model serving. Required skills: Kubernetes, Linux, MLflow, Python. Preferred: ClearML, Terraform. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": true,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "3c4d520f38f7adde8d6493066bb847403c05929825829e0fd21d3c9b6d8e48e3",
+      "description_hash": "e00878ee85da5bc7d640c2fda4eedf4c2a0d70da99e865dd40add94a6f68a77e",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [
+        "demo-12"
+      ],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 1,
+            "employer_id": "fiction-0",
+            "published_at": "2026-10-21T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-2",
+      "url": "https://hh.ru/vacancy/demo-2",
+      "title": "DevOps / ML Platform",
+      "employer_id": "fiction-1",
+      "employer": "Fictional Orbit • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "HYBRID"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-20T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 270000.0,
+        "upper": 370000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 2,
+      "score": 100,
+      "reasons": [
+        "platform_title",
+        "operational_ml",
+        "technology:GPU",
+        "technology:GPU Operator",
+        "technology:MLflow",
+        "technology:inference"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Helm, Prometheus, Terraform"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Helm, Prometheus, Terraform"
+        },
+        {
+          "name": "Helm",
+          "category": "infrastructure",
+          "matched": "Helm",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Helm, Prometheus, Terraform"
+        },
+        {
+          "name": "Terraform",
+          "category": "infrastructure",
+          "matched": "Terraform",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Helm, Prometheus, Terraform"
+        },
+        {
+          "name": "Prometheus",
+          "category": "observability",
+          "matched": "Prometheus",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Helm, Prometheus, Terraform"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Развертывание MLflow и GPU Operator, эксплуатация inference платформы"
+        },
+        {
+          "name": "vLLM",
+          "category": "inference",
+          "matched": "vLLM",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "vLLM, Ray Serve"
+        },
+        {
+          "name": "Ray Serve",
+          "category": "inference",
+          "matched": "Ray Serve",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "vLLM, Ray Serve"
+        },
+        {
+          "name": "inference",
+          "category": "inference",
+          "matched": "inference",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Развертывание MLflow и GPU Operator, эксплуатация inference платформы"
+        },
+        {
+          "name": "GPU Operator",
+          "category": "gpu",
+          "matched": "GPU Operator",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Развертывание MLflow и GPU Operator, эксплуатация inference платформы"
+        },
+        {
+          "name": "GPU",
+          "category": "gpu",
+          "matched": "GPU",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Развертывание MLflow и GPU Operator, эксплуатация inference платформы"
+        },
+        {
+          "name": "Ray",
+          "category": "gpu",
+          "matched": "Ray",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "vLLM, Ray Serve"
+        }
+      ],
+      "sections": {
+        "title": "DevOps / ML Platform",
+        "responsibilities": "Обязанности\nРазвертывание MLflow и GPU Operator, эксплуатация inference платформы",
+        "requirements": "Требования\nLinux, Kubernetes, Helm, Prometheus, Terraform",
+        "preferred": "Будет плюсом\nvLLM, Ray Serve"
+      },
+      "summary": {
+        "ru": "Область работы: GPU, GPU Operator, MLflow, Ray, Ray Serve, inference, vLLM. Обязательные навыки: Helm, Kubernetes, Linux, Prometheus, Terraform. Будет плюсом: Ray, Ray Serve, vLLM. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: GPU, GPU Operator, MLflow, Ray, Ray Serve, inference, vLLM. Required skills: Helm, Kubernetes, Linux, Prometheus, Terraform. Preferred: Ray, Ray Serve, vLLM. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": true,
+        "inference": true,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "f1049521bda2fe4d1684c7414dc3282bd68facbe8ae9d0908454d90f05720147",
+      "description_hash": "8b73dfc04383b694f482a3612ca3d54e01a27fd4fb210501451f7f91934dfda0",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 2,
+            "employer_id": "fiction-1",
+            "published_at": "2026-10-20T08:00:00+03:00"
+          }
+        },
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "updated",
+          "fields": [
+            "salary"
+          ],
+          "before": {
+            "salary": {
+              "lower": 240000,
+              "upper": 340000,
+              "currency": "RUR",
+              "gross": false,
+              "period": "MONTHLY",
+              "mode": "MONTH"
+            }
+          },
+          "after": {
+            "salary": {
+              "lower": 270000.0,
+              "upper": 370000.0,
+              "currency": "RUR",
+              "gross": false,
+              "period": "MONTHLY",
+              "mode": "MONTH"
+            }
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-3",
+      "url": "https://hh.ru/vacancy/demo-3",
+      "title": "Senior GPU Infrastructure Engineer",
+      "employer_id": "fiction-2",
+      "employer": "Учебный Контур • DEMO",
+      "location": "Санкт-Петербург",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-19T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between1And3",
+      "seniority": "senior",
+      "seniority_uncertain": false,
+      "years": [],
+      "salary": null,
+      "category": 2,
+      "score": 100,
+      "reasons": [
+        "platform_title",
+        "operational_ml",
+        "technology:CUDA",
+        "technology:DCGM",
+        "technology:GPU",
+        "technology:InfiniBand",
+        "technology:NCCL",
+        "technology:PyTorch",
+        "technology:Slurm",
+        "technology:distributed training"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        },
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        },
+        {
+          "name": "CUDA",
+          "category": "gpu",
+          "matched": "CUDA",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        },
+        {
+          "name": "NCCL",
+          "category": "gpu",
+          "matched": "NCCL",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        },
+        {
+          "name": "DCGM",
+          "category": "gpu",
+          "matched": "DCGM",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация GPU-кластера, distributed training PyTorch, DCGM"
+        },
+        {
+          "name": "MIG",
+          "category": "gpu",
+          "matched": "MIG",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "DeepSpeed, FSDP, MIG"
+        },
+        {
+          "name": "GPU",
+          "category": "gpu",
+          "matched": "GPU",
+          "section": "title",
+          "requirement": "mentioned",
+          "evidence": "Senior GPU Infrastructure Engineer"
+        },
+        {
+          "name": "GPU",
+          "category": "gpu",
+          "matched": "GPU",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация GPU-кластера, distributed training PyTorch, DCGM"
+        },
+        {
+          "name": "InfiniBand",
+          "category": "gpu",
+          "matched": "InfiniBand",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        },
+        {
+          "name": "PyTorch",
+          "category": "gpu",
+          "matched": "PyTorch",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация GPU-кластера, distributed training PyTorch, DCGM"
+        },
+        {
+          "name": "DeepSpeed",
+          "category": "gpu",
+          "matched": "DeepSpeed",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "DeepSpeed, FSDP, MIG"
+        },
+        {
+          "name": "FSDP",
+          "category": "gpu",
+          "matched": "FSDP",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "DeepSpeed, FSDP, MIG"
+        },
+        {
+          "name": "distributed training",
+          "category": "gpu",
+          "matched": "distributed training",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация GPU-кластера, distributed training PyTorch, DCGM"
+        },
+        {
+          "name": "Slurm",
+          "category": "gpu",
+          "matched": "Slurm",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2"
+        }
+      ],
+      "sections": {
+        "title": "Senior GPU Infrastructure Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация GPU-кластера, distributed training PyTorch, DCGM",
+        "requirements": "Требования\nLinux, CUDA, NCCL, Slurm, InfiniBand, Python, English B2",
+        "preferred": "Будет плюсом\nDeepSpeed, FSDP, MIG"
+      },
+      "summary": {
+        "ru": "Область работы: CUDA, DCGM, DeepSpeed, FSDP, GPU, InfiniBand, MIG, NCCL, PyTorch, Slurm, distributed training. Обязательные навыки: CUDA, InfiniBand, Linux, NCCL, Python, Slurm. Будет плюсом: DeepSpeed, FSDP, MIG. Опыт hh.ru: 1–3 года.",
+        "en": "Work scope: CUDA, DCGM, DeepSpeed, FSDP, GPU, InfiniBand, MIG, NCCL, PyTorch, Slurm, distributed training. Required skills: CUDA, InfiniBand, Linux, NCCL, Python, Slurm. Preferred: DeepSpeed, FSDP, MIG. hh.ru experience: 1–3 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic",
+        "salary_unknown"
+      ],
+      "flags": {
+        "gpu": true,
+        "inference": false,
+        "training": true,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": "English B2",
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "eba6135e6ddd32d3e47a87c21a4891ce4be0635907f4c0b80415c54434093a58",
+      "description_hash": "f53d733ee4f88f93b5e2a75855a06439263fef54b1b07822670f28e28b16d4ac",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 2,
+            "employer_id": "fiction-2",
+            "published_at": "2026-10-19T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-4",
+      "url": "https://hh.ru/vacancy/demo-4",
+      "title": "SRE — inference platform",
+      "employer_id": "fiction-3",
+      "employer": "Example GPU • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "HYBRID"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-18T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 290000.0,
+        "upper": 390000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 3,
+      "score": 74,
+      "reasons": [
+        "operational_ml",
+        "technology:KServe",
+        "technology:NVIDIA Triton Inference Server",
+        "technology:TensorRT",
+        "technology:TensorRT-LLM",
+        "technology:inference",
+        "technology:model serving"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Go",
+          "category": "infrastructure",
+          "matched": "Go",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "Grafana",
+          "category": "observability",
+          "matched": "Grafana",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "OpenTelemetry",
+          "category": "observability",
+          "matched": "OpenTelemetry",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "OpenTelemetry, Ray Serve"
+        },
+        {
+          "name": "KServe",
+          "category": "inference",
+          "matched": "KServe",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Deploy model serving with KServe and TensorRT-LLM, on-call"
+        },
+        {
+          "name": "KServe",
+          "category": "inference",
+          "matched": "KServe",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "NVIDIA Triton Inference Server",
+          "category": "inference",
+          "matched": "NVIDIA Triton Inference Server",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "TensorRT",
+          "category": "inference",
+          "matched": "TensorRT",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Deploy model serving with KServe and TensorRT-LLM, on-call"
+        },
+        {
+          "name": "TensorRT-LLM",
+          "category": "inference",
+          "matched": "TensorRT-LLM",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Deploy model serving with KServe and TensorRT-LLM, on-call"
+        },
+        {
+          "name": "Ray Serve",
+          "category": "inference",
+          "matched": "Ray Serve",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "OpenTelemetry, Ray Serve"
+        },
+        {
+          "name": "model serving",
+          "category": "inference",
+          "matched": "model serving",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Deploy model serving with KServe and TensorRT-LLM, on-call"
+        },
+        {
+          "name": "inference",
+          "category": "inference",
+          "matched": "inference",
+          "section": "title",
+          "requirement": "mentioned",
+          "evidence": "SRE — inference platform"
+        },
+        {
+          "name": "inference",
+          "category": "inference",
+          "matched": "Inference",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go"
+        },
+        {
+          "name": "Ray",
+          "category": "gpu",
+          "matched": "Ray",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "OpenTelemetry, Ray Serve"
+        }
+      ],
+      "sections": {
+        "title": "SRE — inference platform",
+        "responsibilities": "Обязанности\nDeploy model serving with KServe and TensorRT-LLM, on-call",
+        "requirements": "Требования\nKubernetes, KServe, NVIDIA Triton Inference Server, Grafana, Go",
+        "preferred": "Будет плюсом\nOpenTelemetry, Ray Serve"
+      },
+      "summary": {
+        "ru": "Область работы: KServe, NVIDIA Triton Inference Server, Ray, Ray Serve, TensorRT, TensorRT-LLM, inference, model serving. Обязательные навыки: Go, Grafana, KServe, Kubernetes, NVIDIA Triton Inference Server, inference. Будет плюсом: OpenTelemetry, Ray, Ray Serve. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: KServe, NVIDIA Triton Inference Server, Ray, Ray Serve, TensorRT, TensorRT-LLM, inference, model serving. Required skills: Go, Grafana, KServe, Kubernetes, NVIDIA Triton Inference Server, inference. Preferred: OpenTelemetry, Ray, Ray Serve. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": true,
+        "training": false,
+        "llm": true,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": true,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "08cac42befb1255f464001ed3d14a67c87d633a3566a559081a64af9a17fd097",
+      "description_hash": "92be9d11e29b667df90d208b1aed8cd5bdf915781f3f5baff1588e02c893c826",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 3,
+            "employer_id": "fiction-3",
+            "published_at": "2026-10-18T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-5",
+      "url": "https://hh.ru/vacancy/demo-5",
+      "title": "Junior MLOps Engineer",
+      "employer_id": "fiction-4",
+      "employer": "Вымышленный Банк • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-17T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "noExperience",
+      "seniority": "junior",
+      "seniority_uncertain": false,
+      "years": [],
+      "salary": {
+        "lower": 120000.0,
+        "upper": null,
+        "currency": "RUR",
+        "gross": true,
+        "period": "unknown",
+        "mode": "unknown"
+      },
+      "category": 1,
+      "score": 100,
+      "reasons": [
+        "core_title",
+        "operational_ml",
+        "technology:ML pipelines",
+        "technology:MLflow",
+        "technology:model registry"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Python, Linux, Docker, MLflow"
+        },
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Python, Linux, Docker, MLflow"
+        },
+        {
+          "name": "Docker",
+          "category": "infrastructure",
+          "matched": "Docker",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Python, Linux, Docker, MLflow"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Python, Linux, Docker, MLflow"
+        },
+        {
+          "name": "ClearML",
+          "category": "lifecycle",
+          "matched": "ClearML",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "DVC, ClearML"
+        },
+        {
+          "name": "DVC",
+          "category": "lifecycle",
+          "matched": "DVC",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "DVC, ClearML"
+        },
+        {
+          "name": "model registry",
+          "category": "lifecycle",
+          "matched": "model registry",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Сопровождение ML pipelines и model registry"
+        },
+        {
+          "name": "ML pipelines",
+          "category": "lifecycle",
+          "matched": "ML pipelines",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Сопровождение ML pipelines и model registry"
+        }
+      ],
+      "sections": {
+        "title": "Junior MLOps Engineer",
+        "responsibilities": "Обязанности\nСопровождение ML pipelines и model registry",
+        "requirements": "Требования\nPython, Linux, Docker, MLflow",
+        "preferred": "Будет плюсом\nDVC, ClearML"
+      },
+      "summary": {
+        "ru": "Область работы: ClearML, DVC, ML pipelines, MLflow, model registry. Обязательные навыки: Docker, Linux, MLflow, Python. Будет плюсом: ClearML, DVC. Опыт hh.ru: без опыта.",
+        "en": "Work scope: ClearML, DVC, ML pipelines, MLflow, model registry. Required skills: Docker, Linux, MLflow, Python. Preferred: ClearML, DVC. hh.ru experience: no experience."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": false,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "d7ae2c3c9db50c36a2004d68c6f067507405ff63fc4e87940941e791a94d0850",
+      "description_hash": "097e53aba933b26aabb12f20deb280ecd2f187ec543ccaa370b34ed5ed1182d2",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 1,
+            "employer_id": "fiction-4",
+            "published_at": "2026-10-17T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-6",
+      "url": "https://hh.ru/vacancy/demo-6",
+      "title": "Data Platform Engineer",
+      "employer_id": "fiction-0",
+      "employer": "Синтетика Лаб • DEMO",
+      "location": "Санкт-Петербург",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "unknown"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-16T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between1And3",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 310000.0,
+        "upper": 410000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 4,
+      "score": 56,
+      "reasons": [
+        "technology:Airflow",
+        "technology:Feast",
+        "technology:ML pipelines",
+        "technology:feature store"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Airflow",
+          "category": "lifecycle",
+          "matched": "Airflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kafka, Spark, S3, Airflow, PostgreSQL"
+        },
+        {
+          "name": "Feast",
+          "category": "lifecycle",
+          "matched": "Feast",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Обслуживание feature store Feast, ML pipelines"
+        },
+        {
+          "name": "feature store",
+          "category": "lifecycle",
+          "matched": "feature store",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Обслуживание feature store Feast, ML pipelines"
+        },
+        {
+          "name": "ML pipelines",
+          "category": "lifecycle",
+          "matched": "ML pipelines",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Обслуживание feature store Feast, ML pipelines"
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "data",
+          "matched": "PostgreSQL",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kafka, Spark, S3, Airflow, PostgreSQL"
+        },
+        {
+          "name": "ClickHouse",
+          "category": "data",
+          "matched": "ClickHouse",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Flink, ClickHouse"
+        },
+        {
+          "name": "Kafka",
+          "category": "data",
+          "matched": "Kafka",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kafka, Spark, S3, Airflow, PostgreSQL"
+        },
+        {
+          "name": "Spark",
+          "category": "data",
+          "matched": "Spark",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kafka, Spark, S3, Airflow, PostgreSQL"
+        },
+        {
+          "name": "Flink",
+          "category": "data",
+          "matched": "Flink",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Flink, ClickHouse"
+        },
+        {
+          "name": "S3",
+          "category": "data",
+          "matched": "S3",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kafka, Spark, S3, Airflow, PostgreSQL"
+        }
+      ],
+      "sections": {
+        "title": "Data Platform Engineer",
+        "responsibilities": "Обязанности\nОбслуживание feature store Feast, ML pipelines",
+        "requirements": "Требования\nKafka, Spark, S3, Airflow, PostgreSQL",
+        "preferred": "Будет плюсом\nFlink, ClickHouse"
+      },
+      "summary": {
+        "ru": "Область работы: Airflow, Feast, ML pipelines, feature store. Обязательные навыки: Airflow, Kafka, PostgreSQL, S3, Spark. Будет плюсом: ClickHouse, Flink. Опыт hh.ru: 1–3 года.",
+        "en": "Work scope: Airflow, Feast, ML pipelines, feature store. Required skills: Airflow, Kafka, PostgreSQL, S3, Spark. Preferred: ClickHouse, Flink. hh.ru experience: 1–3 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic",
+        "arrangement_unknown"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": false,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": false,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "4e12adbecf46cf8fa3f274ea731585f021c08058eb744cd566a6937801c79d6b",
+      "description_hash": "eaf7f1cbfb1631b335408bb69bf910a5ece7bbe0c4727baa446b12373401583a",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 4,
+            "employer_id": "fiction-0",
+            "published_at": "2026-10-16T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-7",
+      "url": "https://hh.ru/vacancy/demo-7",
+      "title": "LLMOps Engineer",
+      "employer_id": "fiction-1",
+      "employer": "Fictional Orbit • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-22T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 5000.0,
+        "upper": 7000.0,
+        "currency": "USD",
+        "gross": null,
+        "period": "MONTHLY",
+        "mode": "unknown"
+      },
+      "category": 1,
+      "score": 100,
+      "reasons": [
+        "core_title",
+        "operational_ml",
+        "technology:CUDA",
+        "technology:GPU",
+        "technology:GPU sharing",
+        "technology:TensorRT",
+        "technology:TensorRT-LLM",
+        "technology:model serving",
+        "technology:vLLM"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "vLLM",
+          "category": "inference",
+          "matched": "vLLM",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "TensorRT",
+          "category": "inference",
+          "matched": "TensorRT",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "TensorRT-LLM",
+          "category": "inference",
+          "matched": "TensorRT-LLM",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "model serving",
+          "category": "inference",
+          "matched": "model serving",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация LLM serving, GPU sharing и model serving"
+        },
+        {
+          "name": "CUDA",
+          "category": "gpu",
+          "matched": "CUDA",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "vLLM, Kubernetes, CUDA, TensorRT-LLM, Python"
+        },
+        {
+          "name": "GPU sharing",
+          "category": "gpu",
+          "matched": "GPU sharing",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация LLM serving, GPU sharing и model serving"
+        },
+        {
+          "name": "GPU",
+          "category": "gpu",
+          "matched": "GPU",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация LLM serving, GPU sharing и model serving"
+        },
+        {
+          "name": "Kueue",
+          "category": "gpu",
+          "matched": "Kueue",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Qdrant, Kueue"
+        },
+        {
+          "name": "Qdrant",
+          "category": "data",
+          "matched": "Qdrant",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Qdrant, Kueue"
+        }
+      ],
+      "sections": {
+        "title": "LLMOps Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация LLM serving, GPU sharing и model serving",
+        "requirements": "Требования\nvLLM, Kubernetes, CUDA, TensorRT-LLM, Python",
+        "preferred": "Будет плюсом\nQdrant, Kueue"
+      },
+      "summary": {
+        "ru": "Область работы: CUDA, GPU, GPU sharing, Kueue, TensorRT, TensorRT-LLM, model serving, vLLM. Обязательные навыки: CUDA, Kubernetes, Python, TensorRT, TensorRT-LLM, vLLM. Будет плюсом: Kueue, Qdrant. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: CUDA, GPU, GPU sharing, Kueue, TensorRT, TensorRT-LLM, model serving, vLLM. Required skills: CUDA, Kubernetes, Python, TensorRT, TensorRT-LLM, vLLM. Preferred: Kueue, Qdrant. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": true,
+        "inference": true,
+        "training": false,
+        "llm": true,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "2c3bb3168853e75f9324cccb9455e3d59c278756cb9a7aca62147e9aafc20ca5",
+      "description_hash": "6ab5af0180216ccc3181cdcabf2ad7fef9d98a1c97952019c629048d4250c5ea",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 1,
+            "employer_id": "fiction-1",
+            "published_at": "2026-10-22T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-8",
+      "url": "https://hh.ru/vacancy/demo-8",
+      "title": "DevOps Engineer",
+      "employer_id": "fiction-2",
+      "employer": "Учебный Контур • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "HYBRID"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-21T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 330000.0,
+        "upper": 430000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 5,
+      "score": 0,
+      "reasons": [],
+      "negative_signals": [
+        "no_explicit_ml_responsibilities",
+        "company_ai_only"
+      ],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Python, Linux"
+        },
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Python, Linux"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Python, Linux"
+        }
+      ],
+      "sections": {
+        "title": "DevOps Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация веб-сервисов",
+        "requirements": "Требования\nKubernetes, Python, Linux"
+      },
+      "summary": {
+        "ru": "Область работы: ML-задачи не подтверждены. Обязательные навыки: Kubernetes, Linux, Python. Будет плюсом: не указано. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: ML responsibilities unconfirmed. Required skills: Kubernetes, Linux, Python. Preferred: not stated. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": false,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": false,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "5d48ea14157920a709e0f6a6b3a7544fafd8aeee746bc2b0f64ffcf55e64f5c5",
+      "description_hash": "63fb19ac798c6459ac1cd0e94c12fed59ab244feb687a61e960452bef00642ea",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 5,
+            "employer_id": "fiction-2",
+            "published_at": "2026-10-21T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-9",
+      "url": "https://hh.ru/vacancy/demo-9",
+      "title": "Platform Engineer",
+      "employer_id": "fiction-3",
+      "employer": "Example GPU • DEMO",
+      "location": "Санкт-Петербург",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-20T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between1And3",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 340000.0,
+        "upper": 440000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 3,
+      "score": 70,
+      "reasons": [
+        "operational_ml",
+        "technology:ClearML",
+        "technology:ML pipelines",
+        "technology:MLflow"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Linux, Argo CD, ClearML, MLflow"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Linux, Argo CD, ClearML, MLflow"
+        },
+        {
+          "name": "Argo CD",
+          "category": "infrastructure",
+          "matched": "Argo CD",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Linux, Argo CD, ClearML, MLflow"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация ClearML и MLflow;"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Linux, Argo CD, ClearML, MLflow"
+        },
+        {
+          "name": "ClearML",
+          "category": "lifecycle",
+          "matched": "ClearML",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация ClearML и MLflow;"
+        },
+        {
+          "name": "ClearML",
+          "category": "lifecycle",
+          "matched": "ClearML",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Kubernetes, Linux, Argo CD, ClearML, MLflow"
+        },
+        {
+          "name": "Kubeflow",
+          "category": "lifecycle",
+          "matched": "Kubeflow",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Kubeflow, MinIO"
+        },
+        {
+          "name": "ML pipelines",
+          "category": "lifecycle",
+          "matched": "ML pipelines",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "ML pipelines"
+        },
+        {
+          "name": "MinIO",
+          "category": "data",
+          "matched": "MinIO",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Kubeflow, MinIO"
+        }
+      ],
+      "sections": {
+        "title": "Platform Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация ClearML и MLflow; ML pipelines",
+        "requirements": "Требования\nKubernetes, Linux, Argo CD, ClearML, MLflow",
+        "preferred": "Будет плюсом\nKubeflow, MinIO"
+      },
+      "summary": {
+        "ru": "Область работы: ClearML, Kubeflow, ML pipelines, MLflow. Обязательные навыки: Argo CD, ClearML, Kubernetes, Linux, MLflow. Будет плюсом: Kubeflow, MinIO. Опыт hh.ru: 1–3 года.",
+        "en": "Work scope: ClearML, Kubeflow, ML pipelines, MLflow. Required skills: Argo CD, ClearML, Kubernetes, Linux, MLflow. Preferred: Kubeflow, MinIO. hh.ru experience: 1–3 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": false,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "6d249449af350cc327329febe95c35d8731fd3f38fd34620158f61a0b3927011",
+      "description_hash": "73cee37efe9e7200ca1f1147d2e71819dbf3b949abfeb6e451499e3b7474c4ed",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 3,
+            "employer_id": "fiction-3",
+            "published_at": "2026-10-20T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-10",
+      "url": "https://hh.ru/vacancy/demo-10",
+      "title": "Research Engineer",
+      "employer_id": "fiction-4",
+      "employer": "Вымышленный Банк • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "HYBRID"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-19T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": null,
+      "category": 5,
+      "score": 4,
+      "reasons": [],
+      "negative_signals": [
+        "no_explicit_ml_responsibilities"
+      ],
+      "technologies": [
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Python, Triton programming language, PhD, высшая математика"
+        },
+        {
+          "name": "PyTorch",
+          "category": "gpu",
+          "matched": "PyTorch",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "PyTorch"
+        }
+      ],
+      "sections": {
+        "title": "Research Engineer",
+        "responsibilities": "Обязанности\nИсследование алгоритмов",
+        "requirements": "Требования\nPython, Triton programming language, PhD, высшая математика",
+        "preferred": "Будет плюсом\nPyTorch"
+      },
+      "summary": {
+        "ru": "Область работы: PyTorch. Обязательные навыки: Python. Будет плюсом: PyTorch. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: PyTorch. Required skills: Python. Preferred: PyTorch. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic",
+        "salary_unknown"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": false,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": false,
+        "research": true,
+        "degree": true,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "9f970ad2fea0c97ee8efbf14f898a749377335870d23376a173d07d6614ccc30",
+      "description_hash": "a9f301079f309cec321bc2020616d1c5dc9e4767ace048472ea7a024360ba751",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 5,
+            "employer_id": "fiction-4",
+            "published_at": "2026-10-19T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-11",
+      "url": "https://hh.ru/vacancy/demo-11",
+      "title": "ML Platform Engineer",
+      "employer_id": "fiction-0",
+      "employer": "Синтетика Лаб • DEMO",
+      "location": "Москва",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "REMOTE"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-18T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between3And6",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 360000.0,
+        "upper": 460000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 2,
+      "score": 100,
+      "reasons": [
+        "platform_title",
+        "operational_ml",
+        "technology:KServe",
+        "technology:Kubeflow",
+        "technology:distributed training"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        },
+        {
+          "name": "Helm",
+          "category": "infrastructure",
+          "matched": "Helm",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        },
+        {
+          "name": "Kubeflow",
+          "category": "lifecycle",
+          "matched": "Kubeflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        },
+        {
+          "name": "KServe",
+          "category": "inference",
+          "matched": "KServe",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        },
+        {
+          "name": "distributed training",
+          "category": "gpu",
+          "matched": "distributed training",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация ML platform, distributed training"
+        },
+        {
+          "name": "Volcano",
+          "category": "gpu",
+          "matched": "Volcano",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Volcano, KubeRay"
+        },
+        {
+          "name": "KubeRay",
+          "category": "gpu",
+          "matched": "KubeRay",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "Volcano, KubeRay"
+        },
+        {
+          "name": "OpenShift",
+          "category": "cloud",
+          "matched": "OpenShift",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        },
+        {
+          "name": "OpenShift AI",
+          "category": "cloud",
+          "matched": "OpenShift AI",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "OpenShift AI, Kubeflow, KServe, Helm, Linux"
+        }
+      ],
+      "sections": {
+        "title": "ML Platform Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация ML platform, distributed training",
+        "requirements": "Требования\nOpenShift AI, Kubeflow, KServe, Helm, Linux",
+        "preferred": "Будет плюсом\nVolcano, KubeRay"
+      },
+      "summary": {
+        "ru": "Область работы: KServe, KubeRay, Kubeflow, Volcano, distributed training. Обязательные навыки: Helm, KServe, Kubeflow, Linux, OpenShift, OpenShift AI. Будет плюсом: KubeRay, Volcano. Опыт hh.ru: 3–6 лет.",
+        "en": "Work scope: KServe, KubeRay, Kubeflow, Volcano, distributed training. Required skills: Helm, KServe, Kubeflow, Linux, OpenShift, OpenShift AI. Preferred: KubeRay, Volcano. hh.ru experience: 3–6 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": true,
+        "inference": true,
+        "training": true,
+        "llm": false,
+        "kubernetes_ml": false,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "afe826373cae11eef71b2feba6a86fde783422f2969d0b753cfb1b688bd97917",
+      "description_hash": "55b2a95b8914d21114cbc933b7ea8f63ea12c66df571a85d417794ebe4611914",
+      "status": "active",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 2,
+            "employer_id": "fiction-0",
+            "published_at": "2026-10-18T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    },
+    {
+      "id": "demo-12",
+      "url": "https://hh.ru/vacancy/demo-12",
+      "title": "MLOps Engineer",
+      "employer_id": "fiction-0",
+      "employer": "Fictional Orbit • DEMO",
+      "location": "Санкт-Петербург",
+      "country": null,
+      "region": null,
+      "arrangement": [
+        "HYBRID"
+      ],
+      "employment": "FULL",
+      "schedule": null,
+      "published_at": "2026-10-17T08:00:00+03:00",
+      "created_at": "2026-10-14T08:00:00+03:00",
+      "first_seen": "2026-10-22T12:00:00+00:00",
+      "last_seen": "2026-10-22T12:00:00+00:00",
+      "detail_refreshed": "2026-10-22T12:00:00+00:00",
+      "experience": "between1And3",
+      "seniority": "unknown",
+      "seniority_uncertain": true,
+      "years": [],
+      "salary": {
+        "lower": 370000.0,
+        "upper": 470000.0,
+        "currency": "RUR",
+        "gross": false,
+        "period": "MONTHLY",
+        "mode": "MONTH"
+      },
+      "category": 1,
+      "score": 100,
+      "reasons": [
+        "core_title",
+        "operational_ml",
+        "technology:KServe",
+        "technology:MLflow",
+        "technology:model serving"
+      ],
+      "negative_signals": [],
+      "technologies": [
+        {
+          "name": "Linux",
+          "category": "infrastructure",
+          "matched": "Linux",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "Python",
+          "category": "infrastructure",
+          "matched": "Python",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "infrastructure",
+          "matched": "Kubernetes",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "MLflow",
+          "category": "lifecycle",
+          "matched": "MLflow",
+          "section": "requirements",
+          "requirement": "required",
+          "evidence": "Linux, Kubernetes, Python, MLflow"
+        },
+        {
+          "name": "ClearML",
+          "category": "lifecycle",
+          "matched": "ClearML",
+          "section": "preferred",
+          "requirement": "preferred",
+          "evidence": "ClearML"
+        },
+        {
+          "name": "KServe",
+          "category": "inference",
+          "matched": "KServe",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        },
+        {
+          "name": "model serving",
+          "category": "inference",
+          "matched": "model serving",
+          "section": "responsibilities",
+          "requirement": "mentioned",
+          "evidence": "Эксплуатация MLflow и KServe: model serving в Kubernetes"
+        }
+      ],
+      "sections": {
+        "title": "MLOps Engineer",
+        "responsibilities": "Обязанности\nЭксплуатация MLflow и KServe: model serving в Kubernetes",
+        "requirements": "Требования\nLinux, Kubernetes, Python, MLflow",
+        "preferred": "Будет плюсом\nClearML"
+      },
+      "summary": {
+        "ru": "Область работы: ClearML, KServe, MLflow, model serving. Обязательные навыки: Kubernetes, Linux, MLflow, Python. Будет плюсом: ClearML. Опыт hh.ru: 1–3 года.",
+        "en": "Work scope: ClearML, KServe, MLflow, model serving. Required skills: Kubernetes, Linux, MLflow, Python. Preferred: ClearML. hh.ru experience: 1–3 years."
+      },
+      "uncertainties": [
+        "section_extraction_heuristic"
+      ],
+      "flags": {
+        "gpu": false,
+        "inference": true,
+        "training": false,
+        "llm": false,
+        "kubernetes_ml": true,
+        "transition": true,
+        "research": false,
+        "degree": false,
+        "relocation": null,
+        "travel": null,
+        "oncall": null,
+        "english": null,
+        "agency": null
+      },
+      "queries": [
+        "demo-fixture"
+      ],
+      "content_hash": "613b166add3d4d328fac07ae40bf0152a05f7db6a41fac0167ebf13d30904a61",
+      "description_hash": "ad74ba0a335ad23055d9c3eb3d93a058287f657292c261c0856b847c24861e13",
+      "status": "archived",
+      "status_evidence": "source_detail",
+      "found_latest": true,
+      "possible_reposts": [
+        "demo-1"
+      ],
+      "events": [
+        {
+          "at": "2026-10-22T12:00:00+00:00",
+          "kind": "initial_inventory",
+          "fields": [],
+          "before": {},
+          "after": {
+            "category": 1,
+            "employer_id": "fiction-1",
+            "published_at": "2026-10-17T08:00:00+03:00"
+          }
+        }
+      ],
+      "classifier_version": "1.0.0",
+      "extractor_version": "1.0.0"
+    }
+  ],
+  "runs": [
+    {
+      "id": "demo-inventory",
+      "started_at": "2026-10-22T12:00:00+00:00",
+      "finished_at": "2026-10-22T12:00:00+00:00",
+      "status": "complete",
+      "initial_inventory": true,
+      "config_hash": "demo-v1",
+      "taxonomy_version": "1.0.0",
+      "queries": [],
+      "partitions": [],
+      "pages": 0,
+      "requests": 0,
+      "unique_ids": 12,
+      "details_refreshed": 12,
+      "details_unavailable": 0,
+      "new": 12,
+      "changed": 0,
+      "archived": 0,
+      "duplicates": 0,
+      "truncations": [],
+      "failures": [],
+      "export_validated": true
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-10-22",
+      "complete": false,
+      "partial_today": true,
+      "config_hash": "demo-v1",
+      "initial_inventory": true,
+      "arrivals": null,
+      "published": 1,
+      "updated": 0,
+      "archived": 0,
+      "new_employers": null,
+      "active": null,
+      "successful_runs": 1,
+      "coverage_hours": 0.0
+    }
+  ],
+  "snapshots": [],
+  "forecast": {
+    "status": "insufficient",
+    "observations": 0,
+    "minimum": 14,
+    "method": null,
+    "evaluation": {},
+    "predictions": [],
+    "segment": "categories_1_3"
+  },
+  "methodology_version": "1.0.0",
+  "taxonomy": [
+    {
+      "name": "Linux",
+      "category": "infrastructure",
+      "aliases": [
+        "Linux"
+      ]
+    },
+    {
+      "name": "networking",
+      "category": "infrastructure",
+      "aliases": [
+        "networking",
+        "сети"
+      ]
+    },
+    {
+      "name": "Bash",
+      "category": "infrastructure",
+      "aliases": [
+        "Bash"
+      ]
+    },
+    {
+      "name": "Python",
+      "category": "infrastructure",
+      "aliases": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Go",
+      "category": "infrastructure",
+      "aliases": [
+        "Go",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "infrastructure",
+      "aliases": [
+        "Docker"
+      ]
+    },
+    {
+      "name": "Podman",
+      "category": "infrastructure",
+      "aliases": [
+        "Podman"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "infrastructure",
+      "aliases": [
+        "Kubernetes",
+        "k8s",
+        "кубернетес"
+      ]
+    },
+    {
+      "name": "Helm",
+      "category": "infrastructure",
+      "aliases": [
+        "Helm"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "category": "infrastructure",
+      "aliases": [
+        "Terraform"
+      ]
+    },
+    {
+      "name": "OpenTofu",
+      "category": "infrastructure",
+      "aliases": [
+        "OpenTofu"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "category": "infrastructure",
+      "aliases": [
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Packer",
+      "category": "infrastructure",
+      "aliases": [
+        "Packer"
+      ]
+    },
+    {
+      "name": "Argo CD",
+      "category": "infrastructure",
+      "aliases": [
+        "Argo CD",
+        "ArgoCD"
+      ]
+    },
+    {
+      "name": "Flux",
+      "category": "infrastructure",
+      "aliases": [
+        "Flux",
+        "FluxCD"
+      ]
+    },
+    {
+      "name": "GitLab CI",
+      "category": "infrastructure",
+      "aliases": [
+        "GitLab CI",
+        "Gitlab CI/CD"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "infrastructure",
+      "aliases": [
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "category": "infrastructure",
+      "aliases": [
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "category": "observability",
+      "aliases": [
+        "Prometheus"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "category": "observability",
+      "aliases": [
+        "Grafana"
+      ]
+    },
+    {
+      "name": "OpenTelemetry",
+      "category": "observability",
+      "aliases": [
+        "OpenTelemetry",
+        "OTel"
+      ]
+    },
+    {
+      "name": "Loki",
+      "category": "observability",
+      "aliases": [
+        "Loki"
+      ]
+    },
+    {
+      "name": "Elasticsearch",
+      "category": "observability",
+      "aliases": [
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "OpenSearch",
+      "category": "observability",
+      "aliases": [
+        "OpenSearch"
+      ]
+    },
+    {
+      "name": "Alertmanager",
+      "category": "observability",
+      "aliases": [
+        "Alertmanager"
+      ]
+    },
+    {
+      "name": "VictoriaMetrics",
+      "category": "observability",
+      "aliases": [
+        "VictoriaMetrics"
+      ]
+    },
+    {
+      "name": "MLflow",
+      "category": "lifecycle",
+      "aliases": [
+        "MLflow"
+      ]
+    },
+    {
+      "name": "ClearML",
+      "category": "lifecycle",
+      "aliases": [
+        "ClearML"
+      ]
+    },
+    {
+      "name": "Kubeflow",
+      "category": "lifecycle",
+      "aliases": [
+        "Kubeflow"
+      ]
+    },
+    {
+      "name": "DVC",
+      "category": "lifecycle",
+      "aliases": [
+        "DVC"
+      ]
+    },
+    {
+      "name": "Airflow",
+      "category": "lifecycle",
+      "aliases": [
+        "Airflow"
+      ]
+    },
+    {
+      "name": "Prefect",
+      "category": "lifecycle",
+      "aliases": [
+        "Prefect"
+      ]
+    },
+    {
+      "name": "Dagster",
+      "category": "lifecycle",
+      "aliases": [
+        "Dagster"
+      ]
+    },
+    {
+      "name": "Feast",
+      "category": "lifecycle",
+      "aliases": [
+        "Feast"
+      ]
+    },
+    {
+      "name": "feature store",
+      "category": "lifecycle",
+      "aliases": [
+        "feature store",
+        "feature stores",
+        "хранилище признаков"
+      ]
+    },
+    {
+      "name": "model registry",
+      "category": "lifecycle",
+      "aliases": [
+        "model registry",
+        "model registries",
+        "реестр моделей"
+      ]
+    },
+    {
+      "name": "ML pipelines",
+      "category": "lifecycle",
+      "aliases": [
+        "ML pipelines",
+        "ML pipeline",
+        "ML-пайплайны"
+      ]
+    },
+    {
+      "name": "KServe",
+      "category": "inference",
+      "aliases": [
+        "KServe"
+      ]
+    },
+    {
+      "name": "Seldon",
+      "category": "inference",
+      "aliases": [
+        "Seldon"
+      ]
+    },
+    {
+      "name": "BentoML",
+      "category": "inference",
+      "aliases": [
+        "BentoML"
+      ]
+    },
+    {
+      "name": "NVIDIA Triton Inference Server",
+      "category": "inference",
+      "aliases": [
+        "NVIDIA Triton Inference Server",
+        "Triton Inference Server",
+        "NVIDIA Triton"
+      ]
+    },
+    {
+      "name": "vLLM",
+      "category": "inference",
+      "aliases": [
+        "vLLM"
+      ]
+    },
+    {
+      "name": "TensorRT",
+      "category": "inference",
+      "aliases": [
+        "TensorRT"
+      ]
+    },
+    {
+      "name": "TensorRT-LLM",
+      "category": "inference",
+      "aliases": [
+        "TensorRT-LLM"
+      ]
+    },
+    {
+      "name": "ONNX Runtime",
+      "category": "inference",
+      "aliases": [
+        "ONNX Runtime"
+      ]
+    },
+    {
+      "name": "TorchServe",
+      "category": "inference",
+      "aliases": [
+        "TorchServe"
+      ]
+    },
+    {
+      "name": "Ray Serve",
+      "category": "inference",
+      "aliases": [
+        "Ray Serve"
+      ]
+    },
+    {
+      "name": "model serving",
+      "category": "inference",
+      "aliases": [
+        "model serving",
+        "model-serving",
+        "сервинг моделей"
+      ]
+    },
+    {
+      "name": "inference",
+      "category": "inference",
+      "aliases": [
+        "inference",
+        "инференс"
+      ]
+    },
+    {
+      "name": "CUDA",
+      "category": "gpu",
+      "aliases": [
+        "CUDA"
+      ]
+    },
+    {
+      "name": "NCCL",
+      "category": "gpu",
+      "aliases": [
+        "NCCL"
+      ]
+    },
+    {
+      "name": "cuDNN",
+      "category": "gpu",
+      "aliases": [
+        "cuDNN"
+      ]
+    },
+    {
+      "name": "GPU Operator",
+      "category": "gpu",
+      "aliases": [
+        "GPU Operator",
+        "NVIDIA GPU Operator"
+      ]
+    },
+    {
+      "name": "NVIDIA device plugin",
+      "category": "gpu",
+      "aliases": [
+        "NVIDIA device plugin"
+      ]
+    },
+    {
+      "name": "DCGM",
+      "category": "gpu",
+      "aliases": [
+        "DCGM"
+      ]
+    },
+    {
+      "name": "MIG",
+      "category": "gpu",
+      "aliases": [
+        "MIG"
+      ]
+    },
+    {
+      "name": "GPU sharing",
+      "category": "gpu",
+      "aliases": [
+        "GPU sharing"
+      ]
+    },
+    {
+      "name": "GPU",
+      "category": "gpu",
+      "aliases": [
+        "GPU",
+        "GPU clusters",
+        "GPU-кластер"
+      ]
+    },
+    {
+      "name": "RDMA",
+      "category": "gpu",
+      "aliases": [
+        "RDMA"
+      ]
+    },
+    {
+      "name": "InfiniBand",
+      "category": "gpu",
+      "aliases": [
+        "InfiniBand"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "category": "gpu",
+      "aliases": [
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "gpu",
+      "aliases": [
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "JAX",
+      "category": "gpu",
+      "aliases": [
+        "JAX"
+      ]
+    },
+    {
+      "name": "DeepSpeed",
+      "category": "gpu",
+      "aliases": [
+        "DeepSpeed"
+      ]
+    },
+    {
+      "name": "FSDP",
+      "category": "gpu",
+      "aliases": [
+        "FSDP"
+      ]
+    },
+    {
+      "name": "distributed training",
+      "category": "gpu",
+      "aliases": [
+        "distributed training",
+        "распределенное обучение",
+        "распределённое обучение"
+      ]
+    },
+    {
+      "name": "Slurm",
+      "category": "gpu",
+      "aliases": [
+        "Slurm"
+      ]
+    },
+    {
+      "name": "Volcano",
+      "category": "gpu",
+      "aliases": [
+        "Volcano"
+      ]
+    },
+    {
+      "name": "Kueue",
+      "category": "gpu",
+      "aliases": [
+        "Kueue"
+      ]
+    },
+    {
+      "name": "KubeRay",
+      "category": "gpu",
+      "aliases": [
+        "KubeRay"
+      ]
+    },
+    {
+      "name": "Ray",
+      "category": "gpu",
+      "aliases": [
+        "Ray"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "data",
+      "aliases": [
+        "PostgreSQL",
+        "Postgres"
+      ]
+    },
+    {
+      "name": "ClickHouse",
+      "category": "data",
+      "aliases": [
+        "ClickHouse"
+      ]
+    },
+    {
+      "name": "Redis",
+      "category": "data",
+      "aliases": [
+        "Redis"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "category": "data",
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "name": "RabbitMQ",
+      "category": "data",
+      "aliases": [
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "Spark",
+      "category": "data",
+      "aliases": [
+        "Spark"
+      ]
+    },
+    {
+      "name": "Flink",
+      "category": "data",
+      "aliases": [
+        "Flink"
+      ]
+    },
+    {
+      "name": "S3",
+      "category": "data",
+      "aliases": [
+        "S3",
+        "S3-compatible storage"
+      ]
+    },
+    {
+      "name": "MinIO",
+      "category": "data",
+      "aliases": [
+        "MinIO"
+      ]
+    },
+    {
+      "name": "Qdrant",
+      "category": "data",
+      "aliases": [
+        "Qdrant"
+      ]
+    },
+    {
+      "name": "Milvus",
+      "category": "data",
+      "aliases": [
+        "Milvus"
+      ]
+    },
+    {
+      "name": "pgvector",
+      "category": "data",
+      "aliases": [
+        "pgvector"
+      ]
+    },
+    {
+      "name": "Weaviate",
+      "category": "data",
+      "aliases": [
+        "Weaviate"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "cloud",
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "name": "Azure",
+      "category": "cloud",
+      "aliases": [
+        "Azure"
+      ]
+    },
+    {
+      "name": "GCP",
+      "category": "cloud",
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ]
+    },
+    {
+      "name": "Yandex Cloud",
+      "category": "cloud",
+      "aliases": [
+        "Yandex Cloud",
+        "Яндекс Облако"
+      ]
+    },
+    {
+      "name": "VK Cloud",
+      "category": "cloud",
+      "aliases": [
+        "VK Cloud"
+      ]
+    },
+    {
+      "name": "Cloud.ru",
+      "category": "cloud",
+      "aliases": [
+        "Cloud.ru"
+      ]
+    },
+    {
+      "name": "OpenStack",
+      "category": "cloud",
+      "aliases": [
+        "OpenStack"
+      ]
+    },
+    {
+      "name": "VMware",
+      "category": "cloud",
+      "aliases": [
+        "VMware"
+      ]
+    },
+    {
+      "name": "OpenShift",
+      "category": "cloud",
+      "aliases": [
+        "OpenShift"
+      ]
+    },
+    {
+      "name": "OpenShift AI",
+      "category": "cloud",
+      "aliases": [
+        "OpenShift AI"
+      ]
+    },
+    {
+      "name": "Deckhouse",
+      "category": "cloud",
+      "aliases": [
+        "Deckhouse"
+      ]
+    }
+  ],
+  "dictionaries": {}
+}

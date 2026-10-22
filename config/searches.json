@@ -1,0 +1,143 @@
+{
+  "version": "1.0.0",
+  "lookback_days": 30,
+  "min_partition_minutes": 5,
+  "queries": [
+    {
+      "id": "direct-0",
+      "text": "MLOps"
+    },
+    {
+      "id": "direct-1",
+      "text": "\"ML Ops\""
+    },
+    {
+      "id": "direct-2",
+      "text": "\"ML-Ops\""
+    },
+    {
+      "id": "direct-3",
+      "text": "\"ML Platform Engineer\""
+    },
+    {
+      "id": "direct-4",
+      "text": "\"ML Infrastructure Engineer\""
+    },
+    {
+      "id": "direct-5",
+      "text": "\"AI Infrastructure Engineer\""
+    },
+    {
+      "id": "direct-6",
+      "text": "\"AI Platform Engineer\""
+    },
+    {
+      "id": "direct-7",
+      "text": "LLMOps"
+    },
+    {
+      "id": "direct-8",
+      "text": "\"ML SRE\""
+    },
+    {
+      "id": "direct-9",
+      "text": "\"GPU Infrastructure Engineer\""
+    },
+    {
+      "id": "direct-10",
+      "text": "\"инженер MLOps\""
+    },
+    {
+      "id": "direct-11",
+      "text": "\"инфраструктура машинного обучения\""
+    },
+    {
+      "id": "direct-12",
+      "text": "\"платформа машинного обучения\""
+    },
+    {
+      "id": "adjacent-0",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (MLflow)"
+    },
+    {
+      "id": "adjacent-1",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (ClearML)"
+    },
+    {
+      "id": "adjacent-2",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (Kubeflow)"
+    },
+    {
+      "id": "adjacent-3",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (KServe)"
+    },
+    {
+      "id": "adjacent-4",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (Seldon)"
+    },
+    {
+      "id": "adjacent-5",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (BentoML)"
+    },
+    {
+      "id": "adjacent-6",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"Triton Inference\")"
+    },
+    {
+      "id": "adjacent-7",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (vLLM)"
+    },
+    {
+      "id": "adjacent-8",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (TensorRT)"
+    },
+    {
+      "id": "adjacent-9",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"Ray Serve\")"
+    },
+    {
+      "id": "adjacent-10",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (KubeRay)"
+    },
+    {
+      "id": "adjacent-11",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"GPU Operator\")"
+    },
+    {
+      "id": "adjacent-12",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (CUDA)"
+    },
+    {
+      "id": "adjacent-13",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (DCGM)"
+    },
+    {
+      "id": "adjacent-14",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"model serving\")"
+    },
+    {
+      "id": "adjacent-15",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"distributed training\")"
+    },
+    {
+      "id": "adjacent-16",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"feature store\")"
+    },
+    {
+      "id": "adjacent-17",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"model registry\")"
+    },
+    {
+      "id": "adjacent-18",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (PyTorch)"
+    },
+    {
+      "id": "adjacent-19",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (TensorFlow)"
+    },
+    {
+      "id": "adjacent-20",
+      "text": "(DevOps OR SRE OR \"Platform Engineer\" OR \"Infrastructure Engineer\" OR \"Kubernetes Engineer\" OR \"Data Platform\") AND (\"LLM serving\")"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[project]
+name = "mlpops"
+version = "0.1.0"
+description = "Evidence-based MLOps vacancy intelligence"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28,<1", "pydantic>=2.11,<3", "jsonschema>=4.25,<5"]
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10", "ruff>=0.12,<1", "pyyaml>=6,<7"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B", "I"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

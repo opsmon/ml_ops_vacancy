@@ -1,0 +1,699 @@
+{
+  "version": "1.0.0",
+  "technologies": [
+    {
+      "name": "Linux",
+      "category": "infrastructure",
+      "aliases": [
+        "Linux"
+      ]
+    },
+    {
+      "name": "networking",
+      "category": "infrastructure",
+      "aliases": [
+        "networking",
+        "сети"
+      ]
+    },
+    {
+      "name": "Bash",
+      "category": "infrastructure",
+      "aliases": [
+        "Bash"
+      ]
+    },
+    {
+      "name": "Python",
+      "category": "infrastructure",
+      "aliases": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Go",
+      "category": "infrastructure",
+      "aliases": [
+        "Go",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "infrastructure",
+      "aliases": [
+        "Docker"
+      ]
+    },
+    {
+      "name": "Podman",
+      "category": "infrastructure",
+      "aliases": [
+        "Podman"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "infrastructure",
+      "aliases": [
+        "Kubernetes",
+        "k8s",
+        "кубернетес"
+      ]
+    },
+    {
+      "name": "Helm",
+      "category": "infrastructure",
+      "aliases": [
+        "Helm"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "category": "infrastructure",
+      "aliases": [
+        "Terraform"
+      ]
+    },
+    {
+      "name": "OpenTofu",
+      "category": "infrastructure",
+      "aliases": [
+        "OpenTofu"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "category": "infrastructure",
+      "aliases": [
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Packer",
+      "category": "infrastructure",
+      "aliases": [
+        "Packer"
+      ]
+    },
+    {
+      "name": "Argo CD",
+      "category": "infrastructure",
+      "aliases": [
+        "Argo CD",
+        "ArgoCD"
+      ]
+    },
+    {
+      "name": "Flux",
+      "category": "infrastructure",
+      "aliases": [
+        "Flux",
+        "FluxCD"
+      ]
+    },
+    {
+      "name": "GitLab CI",
+      "category": "infrastructure",
+      "aliases": [
+        "GitLab CI",
+        "Gitlab CI/CD"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "infrastructure",
+      "aliases": [
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "category": "infrastructure",
+      "aliases": [
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "category": "observability",
+      "aliases": [
+        "Prometheus"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "category": "observability",
+      "aliases": [
+        "Grafana"
+      ]
+    },
+    {
+      "name": "OpenTelemetry",
+      "category": "observability",
+      "aliases": [
+        "OpenTelemetry",
+        "OTel"
+      ]
+    },
+    {
+      "name": "Loki",
+      "category": "observability",
+      "aliases": [
+        "Loki"
+      ]
+    },
+    {
+      "name": "Elasticsearch",
+      "category": "observability",
+      "aliases": [
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "OpenSearch",
+      "category": "observability",
+      "aliases": [
+        "OpenSearch"
+      ]
+    },
+    {
+      "name": "Alertmanager",
+      "category": "observability",
+      "aliases": [
+        "Alertmanager"
+      ]
+    },
+    {
+      "name": "VictoriaMetrics",
+      "category": "observability",
+      "aliases": [
+        "VictoriaMetrics"
+      ]
+    },
+    {
+      "name": "MLflow",
+      "category": "lifecycle",
+      "aliases": [
+        "MLflow"
+      ]
+    },
+    {
+      "name": "ClearML",
+      "category": "lifecycle",
+      "aliases": [
+        "ClearML"
+      ]
+    },
+    {
+      "name": "Kubeflow",
+      "category": "lifecycle",
+      "aliases": [
+        "Kubeflow"
+      ]
+    },
+    {
+      "name": "DVC",
+      "category": "lifecycle",
+      "aliases": [
+        "DVC"
+      ]
+    },
+    {
+      "name": "Airflow",
+      "category": "lifecycle",
+      "aliases": [
+        "Airflow"
+      ]
+    },
+    {
+      "name": "Prefect",
+      "category": "lifecycle",
+      "aliases": [
+        "Prefect"
+      ]
+    },
+    {
+      "name": "Dagster",
+      "category": "lifecycle",
+      "aliases": [
+        "Dagster"
+      ]
+    },
+    {
+      "name": "Feast",
+      "category": "lifecycle",
+      "aliases": [
+        "Feast"
+      ]
+    },
+    {
+      "name": "feature store",
+      "category": "lifecycle",
+      "aliases": [
+        "feature store",
+        "feature stores",
+        "хранилище признаков"
+      ]
+    },
+    {
+      "name": "model registry",
+      "category": "lifecycle",
+      "aliases": [
+        "model registry",
+        "model registries",
+        "реестр моделей"
+      ]
+    },
+    {
+      "name": "ML pipelines",
+      "category": "lifecycle",
+      "aliases": [
+        "ML pipelines",
+        "ML pipeline",
+        "ML-пайплайны"
+      ]
+    },
+    {
+      "name": "KServe",
+      "category": "inference",
+      "aliases": [
+        "KServe"
+      ]
+    },
+    {
+      "name": "Seldon",
+      "category": "inference",
+      "aliases": [
+        "Seldon"
+      ]
+    },
+    {
+      "name": "BentoML",
+      "category": "inference",
+      "aliases": [
+        "BentoML"
+      ]
+    },
+    {
+      "name": "NVIDIA Triton Inference Server",
+      "category": "inference",
+      "aliases": [
+        "NVIDIA Triton Inference Server",
+        "Triton Inference Server",
+        "NVIDIA Triton"
+      ]
+    },
+    {
+      "name": "vLLM",
+      "category": "inference",
+      "aliases": [
+        "vLLM"
+      ]
+    },
+    {
+      "name": "TensorRT",
+      "category": "inference",
+      "aliases": [
+        "TensorRT"
+      ]
+    },
+    {
+      "name": "TensorRT-LLM",
+      "category": "inference",
+      "aliases": [
+        "TensorRT-LLM"
+      ]
+    },
+    {
+      "name": "ONNX Runtime",
+      "category": "inference",
+      "aliases": [
+        "ONNX Runtime"
+      ]
+    },
+    {
+      "name": "TorchServe",
+      "category": "inference",
+      "aliases": [
+        "TorchServe"
+      ]
+    },
+    {
+      "name": "Ray Serve",
+      "category": "inference",
+      "aliases": [
+        "Ray Serve"
+      ]
+    },
+    {
+      "name": "model serving",
+      "category": "inference",
+      "aliases": [
+        "model serving",
+        "model-serving",
+        "сервинг моделей"
+      ]
+    },
+    {
+      "name": "inference",
+      "category": "inference",
+      "aliases": [
+        "inference",
+        "инференс"
+      ]
+    },
+    {
+      "name": "CUDA",
+      "category": "gpu",
+      "aliases": [
+        "CUDA"
+      ]
+    },
+    {
+      "name": "NCCL",
+      "category": "gpu",
+      "aliases": [
+        "NCCL"
+      ]
+    },
+    {
+      "name": "cuDNN",
+      "category": "gpu",
+      "aliases": [
+        "cuDNN"
+      ]
+    },
+    {
+      "name": "GPU Operator",
+      "category": "gpu",
+      "aliases": [
+        "GPU Operator",
+        "NVIDIA GPU Operator"
+      ]
+    },
+    {
+      "name": "NVIDIA device plugin",
+      "category": "gpu",
+      "aliases": [
+        "NVIDIA device plugin"
+      ]
+    },
+    {
+      "name": "DCGM",
+      "category": "gpu",
+      "aliases": [
+        "DCGM"
+      ]
+    },
+    {
+      "name": "MIG",
+      "category": "gpu",
+      "aliases": [
+        "MIG"
+      ]
+    },
+    {
+      "name": "GPU sharing",
+      "category": "gpu",
+      "aliases": [
+        "GPU sharing"
+      ]
+    },
+    {
+      "name": "GPU",
+      "category": "gpu",
+      "aliases": [
+        "GPU",
+        "GPU clusters",
+        "GPU-кластер"
+      ]
+    },
+    {
+      "name": "RDMA",
+      "category": "gpu",
+      "aliases": [
+        "RDMA"
+      ]
+    },
+    {
+      "name": "InfiniBand",
+      "category": "gpu",
+      "aliases": [
+        "InfiniBand"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "category": "gpu",
+      "aliases": [
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "gpu",
+      "aliases": [
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "JAX",
+      "category": "gpu",
+      "aliases": [
+        "JAX"
+      ]
+    },
+    {
+      "name": "DeepSpeed",
+      "category": "gpu",
+      "aliases": [
+        "DeepSpeed"
+      ]
+    },
+    {
+      "name": "FSDP",
+      "category": "gpu",
+      "aliases": [
+        "FSDP"
+      ]
+    },
+    {
+      "name": "distributed training",
+      "category": "gpu",
+      "aliases": [
+        "distributed training",
+        "распределенное обучение",
+        "распределённое обучение"
+      ]
+    },
+    {
+      "name": "Slurm",
+      "category": "gpu",
+      "aliases": [
+        "Slurm"
+      ]
+    },
+    {
+      "name": "Volcano",
+      "category": "gpu",
+      "aliases": [
+        "Volcano"
+      ]
+    },
+    {
+      "name": "Kueue",
+      "category": "gpu",
+      "aliases": [
+        "Kueue"
+      ]
+    },
+    {
+      "name": "KubeRay",
+      "category": "gpu",
+      "aliases": [
+        "KubeRay"
+      ]
+    },
+    {
+      "name": "Ray",
+      "category": "gpu",
+      "aliases": [
+        "Ray"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "data",
+      "aliases": [
+        "PostgreSQL",
+        "Postgres"
+      ]
+    },
+    {
+      "name": "ClickHouse",
+      "category": "data",
+      "aliases": [
+        "ClickHouse"
+      ]
+    },
+    {
+      "name": "Redis",
+      "category": "data",
+      "aliases": [
+        "Redis"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "category": "data",
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "name": "RabbitMQ",
+      "category": "data",
+      "aliases": [
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "Spark",
+      "category": "data",
+      "aliases": [
+        "Spark"
+      ]
+    },
+    {
+      "name": "Flink",
+      "category": "data",
+      "aliases": [
+        "Flink"
+      ]
+    },
+    {
+      "name": "S3",
+      "category": "data",
+      "aliases": [
+        "S3",
+        "S3-compatible storage"
+      ]
+    },
+    {
+      "name": "MinIO",
+      "category": "data",
+      "aliases": [
+        "MinIO"
+      ]
+    },
+    {
+      "name": "Qdrant",
+      "category": "data",
+      "aliases": [
+        "Qdrant"
+      ]
+    },
+    {
+      "name": "Milvus",
+      "category": "data",
+      "aliases": [
+        "Milvus"
+      ]
+    },
+    {
+      "name": "pgvector",
+      "category": "data",
+      "aliases": [
+        "pgvector"
+      ]
+    },
+    {
+      "name": "Weaviate",
+      "category": "data",
+      "aliases": [
+        "Weaviate"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "cloud",
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "name": "Azure",
+      "category": "cloud",
+      "aliases": [
+        "Azure"
+      ]
+    },
+    {
+      "name": "GCP",
+      "category": "cloud",
+      "aliases": [
+        "GCP",
+        "Google Cloud"
+      ]
+    },
+    {
+      "name": "Yandex Cloud",
+      "category": "cloud",
+      "aliases": [
+        "Yandex Cloud",
+        "Яндекс Облако"
+      ]
+    },
+    {
+      "name": "VK Cloud",
+      "category": "cloud",
+      "aliases": [
+        "VK Cloud"
+      ]
+    },
+    {
+      "name": "Cloud.ru",
+      "category": "cloud",
+      "aliases": [
+        "Cloud.ru"
+      ]
+    },
+    {
+      "name": "OpenStack",
+      "category": "cloud",
+      "aliases": [
+        "OpenStack"
+      ]
+    },
+    {
+      "name": "VMware",
+      "category": "cloud",
+      "aliases": [
+        "VMware"
+      ]
+    },
+    {
+      "name": "OpenShift",
+      "category": "cloud",
+      "aliases": [
+        "OpenShift"
+      ]
+    },
+    {
+      "name": "OpenShift AI",
+      "category": "cloud",
+      "aliases": [
+        "OpenShift AI"
+      ]
+    },
+    {
+      "name": "Deckhouse",
+      "category": "cloud",
+      "aliases": [
+        "Deckhouse"
+      ]
+    }
+  ]
+}
