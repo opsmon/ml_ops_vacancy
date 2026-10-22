@@ -328,7 +328,7 @@ export function filterVacancies(
     if (
       f.targetSalary &&
       (!comparable(salary, profile) ||
-        profile.salary === null ||
+        profile.salary == null ||
         salary?.lower == null ||
         salary.lower < profile.salary)
     )

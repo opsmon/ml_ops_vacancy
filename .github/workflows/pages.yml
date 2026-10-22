@@ -28,6 +28,7 @@ jobs:
       pages: read
     outputs:
       digest: ${{ steps.evidence.outputs.digest }}
+      dataset_digest: ${{ steps.evidence.outputs.dataset_digest }}
     steps:
       - uses: actions/checkout@v7.0.1
         with:
@@ -102,6 +103,8 @@ jobs:
         run: |
           python scripts/build_evidence.py
           echo "digest=$(sha256sum docs/verification/build-evidence.json | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          if [ "$VITE_DATA_MODE" = real ]; then dataset=market; else dataset=demo; fi
+          echo "dataset_digest=$(sha256sum "web/dist/data/$dataset.json" | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
           cat docs/verification/build-evidence.json >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-pages-artifact@v5.0.0
         with:
@@ -121,11 +124,13 @@ jobs:
       - name: Check published index and selected export
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_DIGEST: ${{ needs.build.outputs.dataset_digest }}
           DATA_MODE: ${{ vars.DATA_MODE || 'demo' }}
         run: |
-          curl --fail --retry 5 --retry-delay 5 "$PAGE_URL" -o /tmp/mlpops-index.html
+          curl --location --fail --retry 5 --retry-delay 5 "$PAGE_URL" -o /tmp/mlpops-index.html
           if [ "$DATA_MODE" = real ]; then
-            curl --fail --retry 5 "$PAGE_URL/data/market.json" -o /tmp/mlpops-data.json
+            curl --location --fail --retry 5 "${PAGE_URL%/}/data/market.json" -o /tmp/mlpops-data.json
           else
-            curl --fail --retry 5 "$PAGE_URL/data/demo.json" -o /tmp/mlpops-data.json
+            curl --location --fail --retry 5 "${PAGE_URL%/}/data/demo.json" -o /tmp/mlpops-data.json
           fi
+          printf '%s  %s\n' "$EXPECTED_DIGEST" /tmp/mlpops-data.json | sha256sum --check
