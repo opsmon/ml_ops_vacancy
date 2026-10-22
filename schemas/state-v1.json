@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "mode", "checksums"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": 1},
+    "mode": {"enum": ["real", "demo"]},
+    "checksums": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+  }
+}

@@ -1,0 +1,57 @@
+name: Candidate verification
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: ['feat/**']
+permissions:
+  contents: read
+concurrency:
+  group: candidate-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: pip install uv==0.12.3
+      - run: uv sync --locked
+      - run: uv run ruff check collector analytics tests scripts
+      - run: uv run ruff format --check collector analytics tests scripts
+      - run: uv run pytest -q
+      - run: uv run python -m collector schemas && git diff --exit-code schemas/
+      - run: uv run python -m collector demo && uv run python -m collector validate web/public/data/demo.json
+      - run: npm ci
+        working-directory: web
+      - run: npm run check && npm run lint && npm run format:check && npm test && npm run build
+        working-directory: web
+        env:
+          BASE_PATH: /ml_ops_vacancy/
+          VITE_DATA_MODE: demo
+      - run: npx playwright install --with-deps chromium
+        working-directory: web
+      - name: Exercise isolated production preview at repository subpath
+        run: npm run test:e2e
+        working-directory: web
+      - name: Record candidate and immutable artifact evidence
+        run: |
+          python scripts/build_evidence.py
+          cat docs/verification/build-evidence.json >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: candidate-${{ github.sha }}
+          path: |
+            web/dist/
+            web/playwright-report/
+            docs/screenshots/
+            docs/verification/
+          retention-days: 14

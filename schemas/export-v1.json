@@ -1,0 +1,740 @@
+{
+  "$defs": {
+    "Event": {
+      "additionalProperties": false,
+      "properties": {
+        "at": {
+          "title": "At",
+          "type": "string"
+        },
+        "kind": {
+          "title": "Kind",
+          "type": "string"
+        },
+        "fields": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Fields",
+          "type": "array"
+        },
+        "before": {
+          "additionalProperties": true,
+          "default": {},
+          "title": "Before",
+          "type": "object"
+        },
+        "after": {
+          "additionalProperties": true,
+          "default": {},
+          "title": "After",
+          "type": "object"
+        }
+      },
+      "required": [
+        "at",
+        "kind"
+      ],
+      "title": "Event",
+      "type": "object"
+    },
+    "RunReport": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "started_at": {
+          "title": "Started At",
+          "type": "string"
+        },
+        "finished_at": {
+          "title": "Finished At",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "complete",
+            "partial",
+            "failed"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "initial_inventory": {
+          "title": "Initial Inventory",
+          "type": "boolean"
+        },
+        "config_hash": {
+          "title": "Config Hash",
+          "type": "string"
+        },
+        "taxonomy_version": {
+          "title": "Taxonomy Version",
+          "type": "string"
+        },
+        "queries": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Queries",
+          "type": "array"
+        },
+        "partitions": {
+          "default": [],
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Partitions",
+          "type": "array"
+        },
+        "pages": {
+          "default": 0,
+          "title": "Pages",
+          "type": "integer"
+        },
+        "requests": {
+          "default": 0,
+          "title": "Requests",
+          "type": "integer"
+        },
+        "unique_ids": {
+          "default": 0,
+          "title": "Unique Ids",
+          "type": "integer"
+        },
+        "details_refreshed": {
+          "default": 0,
+          "title": "Details Refreshed",
+          "type": "integer"
+        },
+        "details_unavailable": {
+          "default": 0,
+          "title": "Details Unavailable",
+          "type": "integer"
+        },
+        "new": {
+          "default": 0,
+          "title": "New",
+          "type": "integer"
+        },
+        "changed": {
+          "default": 0,
+          "title": "Changed",
+          "type": "integer"
+        },
+        "archived": {
+          "default": 0,
+          "title": "Archived",
+          "type": "integer"
+        },
+        "duplicates": {
+          "default": 0,
+          "title": "Duplicates",
+          "type": "integer"
+        },
+        "truncations": {
+          "default": [],
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Truncations",
+          "type": "array"
+        },
+        "failures": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Failures",
+          "type": "array"
+        },
+        "export_validated": {
+          "default": false,
+          "title": "Export Validated",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "started_at",
+        "finished_at",
+        "status",
+        "initial_inventory",
+        "config_hash",
+        "taxonomy_version"
+      ],
+      "title": "RunReport",
+      "type": "object"
+    },
+    "Salary": {
+      "additionalProperties": false,
+      "properties": {
+        "lower": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lower"
+        },
+        "upper": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Upper"
+        },
+        "currency": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency"
+        },
+        "gross": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gross"
+        },
+        "period": {
+          "default": "unknown",
+          "title": "Period",
+          "type": "string"
+        },
+        "mode": {
+          "default": "unknown",
+          "title": "Mode",
+          "type": "string"
+        }
+      },
+      "title": "Salary",
+      "type": "object"
+    },
+    "Technology": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "matched": {
+          "title": "Matched",
+          "type": "string"
+        },
+        "section": {
+          "enum": [
+            "title",
+            "responsibilities",
+            "requirements",
+            "preferred",
+            "company",
+            "unclear"
+          ],
+          "title": "Section",
+          "type": "string"
+        },
+        "requirement": {
+          "enum": [
+            "required",
+            "preferred",
+            "mentioned",
+            "unclear"
+          ],
+          "title": "Requirement",
+          "type": "string"
+        },
+        "evidence": {
+          "maxLength": 180,
+          "title": "Evidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "category",
+        "matched",
+        "section",
+        "requirement",
+        "evidence"
+      ],
+      "title": "Technology",
+      "type": "object"
+    },
+    "Vacancy": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^(?:[0-9]+|demo-[0-9]+)$",
+          "title": "Id",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "employer_id": {
+          "title": "Employer Id",
+          "type": "string"
+        },
+        "employer": {
+          "title": "Employer",
+          "type": "string"
+        },
+        "location": {
+          "default": "",
+          "title": "Location",
+          "type": "string"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "region": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Region"
+        },
+        "arrangement": {
+          "default": [
+            "unknown"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "title": "Arrangement",
+          "type": "array"
+        },
+        "employment": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Employment"
+        },
+        "schedule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Schedule"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "created_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created At"
+        },
+        "first_seen": {
+          "title": "First Seen",
+          "type": "string"
+        },
+        "last_seen": {
+          "title": "Last Seen",
+          "type": "string"
+        },
+        "detail_refreshed": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Detail Refreshed"
+        },
+        "experience": {
+          "default": "unknown",
+          "title": "Experience",
+          "type": "string"
+        },
+        "seniority": {
+          "default": "unknown",
+          "title": "Seniority",
+          "type": "string"
+        },
+        "seniority_uncertain": {
+          "default": true,
+          "title": "Seniority Uncertain",
+          "type": "boolean"
+        },
+        "years": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Years",
+          "type": "array"
+        },
+        "salary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Salary"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "category": {
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Category",
+          "type": "integer"
+        },
+        "score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Score",
+          "type": "integer"
+        },
+        "reasons": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "negative_signals": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Negative Signals",
+          "type": "array"
+        },
+        "technologies": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Technology"
+          },
+          "title": "Technologies",
+          "type": "array"
+        },
+        "sections": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "default": {},
+          "title": "Sections",
+          "type": "object"
+        },
+        "summary": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Summary",
+          "type": "object"
+        },
+        "uncertainties": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Uncertainties",
+          "type": "array"
+        },
+        "flags": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "default": {},
+          "title": "Flags",
+          "type": "object"
+        },
+        "queries": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Queries",
+          "type": "array"
+        },
+        "content_hash": {
+          "title": "Content Hash",
+          "type": "string"
+        },
+        "description_hash": {
+          "title": "Description Hash",
+          "type": "string"
+        },
+        "status": {
+          "default": "unknown",
+          "enum": [
+            "active",
+            "archived",
+            "inaccessible",
+            "unknown"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "status_evidence": {
+          "default": "",
+          "title": "Status Evidence",
+          "type": "string"
+        },
+        "found_latest": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Found Latest"
+        },
+        "possible_reposts": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Possible Reposts",
+          "type": "array"
+        },
+        "events": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Event"
+          },
+          "title": "Events",
+          "type": "array"
+        },
+        "classifier_version": {
+          "title": "Classifier Version",
+          "type": "string"
+        },
+        "extractor_version": {
+          "title": "Extractor Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "title",
+        "employer_id",
+        "employer",
+        "first_seen",
+        "last_seen",
+        "category",
+        "score",
+        "summary",
+        "content_hash",
+        "description_hash",
+        "classifier_version",
+        "extractor_version"
+      ],
+      "title": "Vacancy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "mode": {
+      "enum": [
+        "demo",
+        "real"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "generated_at": {
+      "title": "Generated At",
+      "type": "string"
+    },
+    "last_success": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Last Success"
+    },
+    "coverage": {
+      "enum": [
+        "complete",
+        "partial",
+        "failed",
+        "none"
+      ],
+      "title": "Coverage",
+      "type": "string"
+    },
+    "config_hash": {
+      "title": "Config Hash",
+      "type": "string"
+    },
+    "vacancies": {
+      "items": {
+        "$ref": "#/$defs/Vacancy"
+      },
+      "title": "Vacancies",
+      "type": "array"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/RunReport"
+      },
+      "title": "Runs",
+      "type": "array"
+    },
+    "daily": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Daily",
+      "type": "array"
+    },
+    "snapshots": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Snapshots",
+      "type": "array"
+    },
+    "forecast": {
+      "additionalProperties": true,
+      "title": "Forecast",
+      "type": "object"
+    },
+    "methodology_version": {
+      "default": "1.0.0",
+      "title": "Methodology Version",
+      "type": "string"
+    },
+    "taxonomy": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Taxonomy",
+      "type": "array"
+    },
+    "dictionaries": {
+      "additionalProperties": true,
+      "default": {},
+      "title": "Dictionaries",
+      "type": "object"
+    }
+  },
+  "required": [
+    "mode",
+    "generated_at",
+    "last_success",
+    "coverage",
+    "config_hash",
+    "vacancies",
+    "runs",
+    "daily",
+    "snapshots",
+    "forecast",
+    "taxonomy"
+  ],
+  "title": "Dataset",
+  "type": "object"
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "weights": {
+    "core_title": 65,
+    "platform_title": 60,
+    "operational_ml": 30,
+    "ml_technology": 12,
+    "optional_ml": 4,
+    "data_infra": 20
+  },
+  "thresholds": {
+    "core": 65,
+    "platform": 60,
+    "adjacent": 45,
+    "data": 30,
+    "ambiguous": 12
+  },
+  "radar": {
+    "minimum_sample": 20,
+    "minimum_mentions": 5,
+    "minimum_employers": 3,
+    "growth_pp": 5,
+    "common_prevalence": 35,
+    "stable_pp": 3
+  }
+}
